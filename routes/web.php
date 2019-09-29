@@ -18,3 +18,4 @@
 Route::get('/','Controller@show');
 Route::get('/next','Controller@nextdate');
 Route::get('/old','Controller@last_date');
+Route::get('/home_date','Controller@show');
